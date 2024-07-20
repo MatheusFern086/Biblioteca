@@ -1,4 +1,5 @@
 ﻿using Biblioteca.Models.Contracts.Services;
+using Biblioteca.Models.Dtos;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Biblioteca.Controllers
@@ -27,6 +28,88 @@ namespace Biblioteca.Controllers
             {
                 throw ex;
             }
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create([Bind("Nome, Autor, Editora")] LivroDto livro) 
+        {
+            try
+            {
+                _livroService.Cadastrar(livro);
+                return RedirectToAction("List");
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public IActionResult Edit(string? id)
+        {
+            if (String.IsNullOrEmpty(id))
+                return NotFound();
+
+            var livro = _livroService.PesquisarPorId(id);
+            if (livro == null)
+                return NotFound();
+
+            return View(livro);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit([Bind("Id, Nome, Autor, Editora")]LivroDto livro)
+        {
+            if (String.IsNullOrEmpty(livro.Id))
+                return NotFound();
+
+            try
+            {
+                _livroService.Atualizar(livro);
+                return RedirectToAction("List");
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public IActionResult Details(string? id)
+        {
+            if (String.IsNullOrEmpty(id))
+                return NotFound();
+
+            var livro = _livroService.PesquisarPorId(id);
+            if (livro == null)
+                return NotFound();
+
+            return View(livro);
+        }
+
+        public IActionResult Delete(string? id)
+        {
+            if (String.IsNullOrEmpty(id))
+                return NotFound();
+
+            var livro = _livroService.PesquisarPorId(id);
+            if (livro == null)
+                return NotFound();
+
+            return View(livro);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete([Bind("Id, Nome, Autor, Editora")] LivroDto livro)
+        {
+            _livroService.Excluir(livro.Id);
+            return RedirectToAction("List");
         }
     }
 }

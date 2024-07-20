@@ -4,10 +4,10 @@
     ViewData["Title"] = "List";
 }
 
-<h1>List</h1>
+<h1>Livros Cadastrados</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-primary" asp-action="Create">Cadastrar Livro</a>
 </p>
 <table class="table">
     <thead>
@@ -17,12 +17,6 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Autor)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Editora)
             </th>
             <th></th>
         </tr>
@@ -37,15 +31,9 @@
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Autor)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Editora)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                    @Html.ActionLink("Atualizar", "Edit", new { @class = "btn btn-primary", @id = item.Id }, new { @class = "btn btn-primary" }) 
+                    @Html.ActionLink("Detalhes", "Details", new { @class = "btn btn-primary", @id = item.Id }, new { @class = "btn btn-primary" }) 
+                    @Html.ActionLink("Excluir", "Delete", new { @class = "btn btn-primary", @id = item.Id }, new { @class = "btn btn-primary" })
             </td>
         </tr>
 }

@@ -1,13 +1,18 @@
-﻿using Microsoft.AspNetCore.Components.Forms;
+﻿using Biblioteca.Models.Entidades;
+using Microsoft.AspNetCore.Components.Forms;
 
 namespace Biblioteca.Models.Dtos
 {
-    public class LivroDto
+    public class LivroDto : EntidadeBase
     {
-        public String Id { get; set; }
         public String Nome { get; set; }
         public String Autor { get; set; }
         public String Editora { get; set; }
+
+        public LivroDto() 
+        {
+        
+        }
 
         public LivroDto(string id, string nome, string autor, string editora)
             : this(nome, autor, editora)
