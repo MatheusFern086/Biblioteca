@@ -1,3 +1,5 @@
+using Biblioteca.Models.Contexts;
+using Biblioteca.Models.Contracts.Contexts;
 using Biblioteca.Models.Contracts.Repositories;
 using Biblioteca.Models.Contracts.Services;
 using Biblioteca.Models.Repositories;
@@ -9,6 +11,24 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<ILivroRepository, LivroRepository>();
 builder.Services.AddScoped<ILivroService, LivroService>();
+
+ConfigureDataSource(builder);
+
+void ConfigureDataSource(WebApplicationBuilder services)
+{
+    var configuration = builder.Configuration;
+    var datasource = configuration["DataSource"];
+    switch (datasource)
+    {
+        case "Local":
+                builder.Services.AddSingleton<IContextData, ContextDataFake>();
+            break;
+        case "SqlServer":
+                builder.Services.AddSingleton<IContextData, ContextDataSqlServer>();
+                builder.Services.AddSingleton<IConnectionManager, ConnectionManager>();
+            break;
+    }
+}
 
 var app = builder.Build();
 

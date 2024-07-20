@@ -1,4 +1,5 @@
-﻿using Biblioteca.Models.Contracts.Repositories;
+﻿using Biblioteca.Models.Contracts.Contexts;
+using Biblioteca.Models.Contracts.Repositories;
 using Biblioteca.Models.Dtos;
 using Biblioteca.Models.Services;
 
@@ -6,40 +7,36 @@ namespace Biblioteca.Models.Repositories
 {
     public class LivroRepository : ILivroRepository
     {
+        private readonly IContextData _contextData;
+
+        public LivroRepository(IContextData contextData)
+        {
+            _contextData = contextData;
+        }
+
         public void Atualizar(LivroDto livro)
         {
-            var objPesquisa = PesquisarPorId(livro.Id);
-            ContextDataFake.Livros.Remove(objPesquisa);
-
-            objPesquisa.Nome = livro.Nome;
-            objPesquisa.Editora = livro.Editora;
-            objPesquisa.Autor = livro.Autor;
-
-            Cadastrar(objPesquisa);
+            _contextData.AtualizarLivro(livro);
         }
 
         public void Cadastrar(LivroDto livro)
         {
-            ContextDataFake.Livros.Add(livro);
+            _contextData.CadastrarLivro(livro);
         }
 
         public void Excluir(string id)
         {
-            var objPesquisa = PesquisarPorId(id);
-            ContextDataFake.Livros.Remove(objPesquisa);
+            _contextData.ExcluirLivro(id);
         }
 
         public List<LivroDto> Listar()
         {
-            var livros = ContextDataFake.Livros;
-            return livros
-                .OrderBy(x => x.Nome)
-                .ToList();
+            return _contextData.ListarLivro();
         }
 
         public LivroDto PesquisarPorId(string id)
         {
-            return ContextDataFake.Livros.FirstOrDefault(x => x.Id == id);
+            return _contextData.PesquisarLivroPorId(id);
         }
     }
 }

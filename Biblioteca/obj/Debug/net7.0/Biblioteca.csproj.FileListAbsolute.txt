@@ -221,3 +221,9 @@ C:\TCC\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net7.0\runtimes\win\lib\net6.0
 C:\TCC\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\TCC\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\TCC\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net7.0\Biblioteca.csproj.CopyComplete
+C:\TCC\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\TCC\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\TCC\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\TCC\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\TCC\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\TCC\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
