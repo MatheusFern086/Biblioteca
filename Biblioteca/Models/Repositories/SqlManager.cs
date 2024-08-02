@@ -32,12 +32,14 @@ namespace Biblioteca.Models.Repositories
                 case TSql.PESQUISAR_LIVRO:
 
                     sql.AppendLine("SELECT")
-                        .AppendLine("   id")
-                        .AppendLine(",  nome")
-                        .AppendLine(",  autor")
-                        .AppendLine(",  editora")
-                        .AppendLine("FROM livro")
-                        .AppendLine("WHERE id = @id");
+                        .AppendLine("   CONVERT(varchar(36), l.id) as id")
+                        .AppendLine(",  l.nome")
+                        .AppendLine(",  l.autor")
+                        .AppendLine(",  l.editora")
+                        .AppendLine(",  sl.status")
+                        .AppendLine("FROM livro l")
+                        .AppendLine("INNER JOIN statusLivro sl ON sl.id = l.es_status")
+                        .AppendLine("WHERE l.id = @id");
 
                     break;
                 case TSql.EXCLUIR_LIVRO:
@@ -49,7 +51,14 @@ namespace Biblioteca.Models.Repositories
                     break;
                 case TSql.LISTAR_LIVRO:
 
-                    sql.AppendLine("SELECT id, nome, autor, editora FROM livro");
+                    sql.AppendLine("SELECT ")
+                        .AppendLine("CONVERT(varchar(36), l.id) as id")
+                        .AppendLine(", l.nome")
+                        .AppendLine(", l.autor")
+                        .AppendLine(", l.editora")
+                        .AppendLine(", sl.status")
+                        .AppendLine("FROM livro l")
+                        .AppendLine("INNER JOIN statusLivro sl ON sl.id = l.es_status");
 
                     break;
                 case TSql.ATUALIZAR_LIVRO:
