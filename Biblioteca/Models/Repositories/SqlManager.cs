@@ -22,7 +22,7 @@ namespace Biblioteca.Models.Repositories
                         .AppendLine(")")
                         .AppendLine("VALUES")
                         .AppendLine("(")
-                        .AppendLine("   @id")
+                        .AppendLine("   CONVERT(binary(36), @id)")
                         .AppendLine(",  @nome")
                         .AppendLine(",  @autor")
                         .AppendLine(",  @editora")

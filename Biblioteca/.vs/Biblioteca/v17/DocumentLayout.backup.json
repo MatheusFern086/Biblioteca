@@ -1,0 +1,276 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|c:\\tcc\\biblioteca\\biblioteca\\biblioteca\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|solutionrelative:controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|c:\\tcc\\biblioteca\\biblioteca\\biblioteca\\models\\contexts\\contextdatasqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|solutionrelative:models\\contexts\\contextdatasqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|c:\\tcc\\biblioteca\\biblioteca\\biblioteca\\models\\repositories\\sqlmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|solutionrelative:models\\repositories\\sqlmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|c:\\tcc\\biblioteca\\biblioteca\\biblioteca\\models\\repositories\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|solutionrelative:models\\repositories\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|c:\\tcc\\biblioteca\\biblioteca\\biblioteca\\models\\services\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|solutionrelative:models\\services\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|c:\\tcc\\biblioteca\\biblioteca\\biblioteca\\models\\entidades\\emprestimolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|solutionrelative:models\\entidades\\emprestimolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|c:\\tcc\\biblioteca\\biblioteca\\biblioteca\\models\\entidades\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|solutionrelative:models\\entidades\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|c:\\tcc\\biblioteca\\biblioteca\\biblioteca\\models\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|solutionrelative:models\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|c:\\tcc\\biblioteca\\biblioteca\\biblioteca\\models\\enum\\statuscliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|solutionrelative:models\\enum\\statuscliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|c:\\tcc\\biblioteca\\biblioteca\\biblioteca\\models\\enum\\statuslivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|solutionrelative:models\\enum\\statuslivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|c:\\tcc\\biblioteca\\biblioteca\\biblioteca\\models\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|solutionrelative:models\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|c:\\tcc\\biblioteca\\biblioteca\\biblioteca\\models\\dtos\\livrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|solutionrelative:models\\dtos\\livrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|c:\\tcc\\biblioteca\\biblioteca\\biblioteca\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|c:\\tcc\\biblioteca\\biblioteca\\biblioteca\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|c:\\tcc\\biblioteca\\biblioteca\\biblioteca\\views\\livro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05559521-27A8-4DA2-A2A6-E11AD093367E}|Biblioteca.csproj|solutionrelative:views\\livro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 443,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LivroController.cs",
+              "DocumentMoniker": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Controllers\\LivroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LivroController.cs",
+              "ToolTip": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Controllers\\LivroController.cs",
+              "RelativeToolTip": "Controllers\\LivroController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwDAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T00:01:57.098Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Views\\Livro\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Livro\\Index.cshtml",
+              "ToolTip": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Views\\Livro\\Index.cshtml",
+              "RelativeToolTip": "Views\\Livro\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T00:04:52.823Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T23:41:11.326Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContextDataSqlServer.cs",
+              "DocumentMoniker": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Contexts\\ContextDataSqlServer.cs",
+              "RelativeDocumentMoniker": "Models\\Contexts\\ContextDataSqlServer.cs",
+              "ToolTip": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Contexts\\ContextDataSqlServer.cs",
+              "RelativeToolTip": "Models\\Contexts\\ContextDataSqlServer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAArwEEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T23:40:16.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LivroService.cs",
+              "DocumentMoniker": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Services\\LivroService.cs",
+              "RelativeDocumentMoniker": "Models\\Services\\LivroService.cs",
+              "ToolTip": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Services\\LivroService.cs",
+              "RelativeToolTip": "Models\\Services\\LivroService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAewB8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T23:38:54.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LivroRepository.cs",
+              "DocumentMoniker": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Repositories\\LivroRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Repositories\\LivroRepository.cs",
+              "ToolTip": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Repositories\\LivroRepository.cs",
+              "RelativeToolTip": "Models\\Repositories\\LivroRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T23:33:55.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SqlManager.cs",
+              "DocumentMoniker": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Repositories\\SqlManager.cs",
+              "RelativeDocumentMoniker": "Models\\Repositories\\SqlManager.cs",
+              "ToolTip": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Repositories\\SqlManager.cs",
+              "RelativeToolTip": "Models\\Repositories\\SqlManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T23:29:31.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmprestimoLivro.cs",
+              "DocumentMoniker": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Entidades\\EmprestimoLivro.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\EmprestimoLivro.cs",
+              "ToolTip": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Entidades\\EmprestimoLivro.cs",
+              "RelativeToolTip": "Models\\Entidades\\EmprestimoLivro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T23:19:19.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Entidades\\Cliente.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\Cliente.cs",
+              "ToolTip": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Entidades\\Cliente.cs",
+              "RelativeToolTip": "Models\\Entidades\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T23:17:35.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Entidades\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\Usuario.cs",
+              "ToolTip": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Entidades\\Usuario.cs",
+              "RelativeToolTip": "Models\\Entidades\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T23:15:19.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StatusCliente.cs",
+              "DocumentMoniker": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Enum\\StatusCliente.cs",
+              "RelativeDocumentMoniker": "Models\\Enum\\StatusCliente.cs",
+              "ToolTip": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Enum\\StatusCliente.cs",
+              "RelativeToolTip": "Models\\Enum\\StatusCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T23:15:06.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StatusLivro.cs",
+              "DocumentMoniker": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Enum\\StatusLivro.cs",
+              "RelativeDocumentMoniker": "Models\\Enum\\StatusLivro.cs",
+              "ToolTip": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Enum\\StatusLivro.cs",
+              "RelativeToolTip": "Models\\Enum\\StatusLivro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T23:14:25.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Livro.cs",
+              "DocumentMoniker": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Entidades\\Livro.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\Livro.cs",
+              "ToolTip": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Entidades\\Livro.cs",
+              "RelativeToolTip": "Models\\Entidades\\Livro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T23:12:33.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LivroDto.cs",
+              "DocumentMoniker": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Dtos\\LivroDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\LivroDto.cs",
+              "ToolTip": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Models\\Dtos\\LivroDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\LivroDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T23:10:44.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\TCC\\Biblioteca\\Biblioteca\\Biblioteca\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T23:10:21.617Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
